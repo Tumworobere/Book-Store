@@ -13,17 +13,12 @@ const Navbar = () => {
       path: '/categories',
       text: 'Categories',
     },
-    {
-      id: 3,
-      path: '/input',
-      text: 'Input',
-    },
 
   ];
 
   return (
     <div className="navbar">
-      <h1>Bookstore</h1>
+      <h1><a href="/">Book Store</a></h1>
       <nav className="navBar">
         <ul>
           {links.map((link) => (
