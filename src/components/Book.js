@@ -14,6 +14,7 @@ const Book = ({ book }) => {
     <div key={book.item_id}>
       <p>{book.category}</p>
       <p>{book.title}</p>
+
       <button type="submit" onClick={() => { deleteBook(book); }}>Remove</button>
     </div>
 
