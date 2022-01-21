@@ -7,8 +7,8 @@ const BooksList = () => {
   const books = [
     {
       id: uuidv4(),
-      title: 'Eloquent Javascript',
-      author: 'Marijn Haverbeke',
+      title: 'The Hunger Games',
+      author: 'Suzanne Collins',
     },
     {
       id: uuidv4(),
@@ -17,8 +17,8 @@ const BooksList = () => {
     },
     {
       id: uuidv4(),
-      title: 'Harry Potter',
-      author: 'J.K. Rowling',
+      title: 'Alice in WonderLand',
+      author: 'Lewis Carroll',
     },
   ];
 
