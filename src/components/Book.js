@@ -5,7 +5,7 @@ const Book = ({ id, title, author }) => (
   <li key={id} id={id}>
     <p>{title}</p>
     <p>{author}</p>
-    <a href="http://localhost:3001/">Remove</a>
+    <a href="http://localhost:3000/">Remove</a>
   </li>
 );
 
