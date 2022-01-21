@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1><a href="/">Book Store</a></h1>
-      <nav className="navBar">
+      <nav className="nav">
+        <h1><a href="/">Bookstore CMS</a></h1>
         <ul>
           {links.map((link) => (
             <li key={link.id}>
@@ -33,6 +33,9 @@ const Navbar = () => {
           ))}
         </ul>
       </nav>
+      <div className="circle">
+        <i className="fas fa-user" />
+      </div>
     </div>
   );
 };
