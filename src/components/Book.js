@@ -6,7 +6,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import { removeBook } from '../redux/books/books';
 
 const Book = ({ book }) => {
-  const percentage = 69;
+  const percentage = 40;
   const dispatch = useDispatch();
   const deleteBook = (id) => {
     dispatch(removeBook(id));
@@ -40,7 +40,7 @@ const Book = ({ book }) => {
         </div>
         <div className="chapter">
           <p>CURRENT CHAPTER</p>
-          <h3>Chapter 42</h3>
+          <h3>Chapter 72</h3>
           <button type="button">UPDATE PROGRESS</button>
         </div>
       </div>
