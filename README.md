@@ -6,9 +6,17 @@ This project will lay foundations for your Bookstore website. I will create a Re
 - Add a book.
 - Remove a selected book.
 
+## Live Demo
+
+- [Live Link](https://tender-hoover-c5014f.netlify.app/)
+
 ## Built With
 
 - React
+- Redux
+- React-Router
+- JavaScript
+- API
 
 ## Getting Started
 
