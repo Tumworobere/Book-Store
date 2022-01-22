@@ -25,11 +25,27 @@ const InputBook = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" name="title" placeholder="Book Title" value={title} onChange={onTitleChange} required />
-      <input type="text" name="category" placeholder="Book Category" value={category} onChange={onCategoryChange} required />
-      <button type="submit">Add Book</button>
-    </form>
+    <div className="input_div">
+      <h2>ADD NEW BOOK</h2>
+      <form onSubmit={handleSubmit}>
+        <input type="text" name="title" placeholder="Book Title" value={title} onChange={onTitleChange} required />
+        <select
+          onChange={onCategoryChange}
+          name="categories"
+          id="booksCategories"
+        >
+          <option disabledvalue="default">Select a category</option>
+          <option className="otherops" value="Action">Action</option>
+          <option className="otherops" value="Biography">Biography</option>
+          <option className="otherops" value="Heroes">Heroes</option>
+          <option className="otherops" value="Drama">Drama</option>
+          <option className="otherops" value="Science Fiction">Science Fiction</option>
+          <option className="otherops" value="Horror">Horror</option>
+          <option className="otherops" value="Fantasy">Fantasy</option>
+        </select>
+        <button type="submit">ADD BOOK</button>
+      </form>
+    </div>
   );
 };
 

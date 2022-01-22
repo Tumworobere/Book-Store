@@ -33,7 +33,7 @@ const deleteBook = async (book) => {
     }),
   });
 
-  return result === 'This book was deleted!';
+  return result === 'The book was deleted!';
 };
 
 export { newBook, getBooks, deleteBook };
