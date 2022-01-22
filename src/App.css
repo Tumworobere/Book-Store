@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300;400;700&display=swap');
+:root {
+  --variable-name: flex;
+}
 
 body {
   background: #fafafa;
@@ -19,7 +22,7 @@ select {
 }
 
 .nav {
-  display: flex;
+  display: var(--flex);
   justify-content: flex-start;
   align-items: center;
   height: 6rem;
@@ -57,7 +60,7 @@ select {
   height: 2.8rem;
   width: 2.8rem;
   border-radius: 50%;
-  display: flex;
+  display: var(--flex);
   justify-content: center;
   align-items: center;
 }
@@ -112,7 +115,7 @@ select {
 
 .btns {
   margin-top: 1rem;
-  display: flex;
+  display: var(--flex);
 }
 
 .infoBtns {
