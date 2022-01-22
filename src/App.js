@@ -5,9 +5,9 @@ import Categories from './components/categories';
 import BooksList from './components/bookList';
 
 function App() {
-  return;
-  (
+  return (
     <Router>
+
       <Navbar />
       <div className="main">
         <Routes>
